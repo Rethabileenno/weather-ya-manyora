@@ -102,9 +102,7 @@ function WeatherApp() {
   <div>Wind: {weatherData.wind} m/s</div>
   <div>Sunrise: {weatherData.sunrise}</div>
   <div>Sunset: {weatherData.sunset}</div>
-  <div>Current Date and Time: 
-    {new Date().toLocaleString()}
-    </div>
+<div>Current Day and Time: {formatDate(new Date()).toLocaleString()} </div>
 </div>
 <br/> <br/> <br/>  <br/>  <br/> 
         <div className="forecast">
